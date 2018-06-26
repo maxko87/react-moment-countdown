@@ -45,7 +45,7 @@ class ReactMomentCountDown extends Component {
   }
   render() {
     return (
-      <span>{this.state.countdown}</span>
+      <Text>{this.state.countdown}</Text>
     )
   }
 };
